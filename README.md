@@ -23,6 +23,8 @@ $ cp ./rebar3 /usr/local/bin
 **Step2: Initial project**
 
 ```sh
+$ git clone https://github.com/MrKou47/elixir_grpc.git
+$ cd elixir_grpc
 $ mix deps.get
 $ mix local.rebar rebar3 /usr/local/bin/rebar3
 ```
