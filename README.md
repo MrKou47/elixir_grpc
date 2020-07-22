@@ -1,4 +1,4 @@
-# ElixirGrpc
+# ElixirGRPC
 
 [Learn how to use gRPC in elixir.](https://blog.appsignal.com/2020/03/24/how-to-use-grpc-in-elixir.html)
 
