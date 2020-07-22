@@ -26,13 +26,14 @@ $ cp ./rebar3 /usr/local/bin
 $ git clone https://github.com/MrKou47/elixir_grpc.git
 $ cd elixir_grpc
 $ mix deps.get
-$ mix local.rebar rebar3 /usr/local/bin/rebar3
+$ mix local.rebar rebar3 /usr/local/bin/rebar3 # link rebar3
 ```
 
 **Step3: Start gRPC server**
 
 ```sh
-$mix grpc.server # 15:52:00.838 [info] Running Interface.Endpoint with Cowboy using http://0.0.0.0:50051
+$ mix grpc.server
+15:52:00.838 [info] Running Interface.Endpoint with Cowboy using http://0.0.0.0:50051
 ```
 
 **Step4: Open up another terminal, and send message**
